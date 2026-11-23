@@ -18,3 +18,14 @@ RobotClasses.h — ประกาศคลาส Attributes และ Methods
 main.cpp — เขียนฟังก์ชันการทำงานของคลาส กำหนดสถานการณ์จำลอง และ int main()
 
 tests.cpp — Unit Tests และตัวอย่าง Change Request
+
+# How to Build and Run Program
+
+โปรแกรมใช้ภาษา C++17 และสามารถ Compile ด้วย g++ โดยไม่ต้องติดตั้ง Library เสริม
+
+เปิด Terminal ในโฟลเดอร์โปรเจกต์ แล้วใช้คำสั่ง: 
+
+g++ -std=c++17 main.cpp tests.cpp -o hospital
+./hospital 
+
+โปรแกรมจะแสดง Grid และสถานะของหุ่นยนต์ในแต่ละ Timestep จนงานทั้งหมดเสร็จสิ้น
