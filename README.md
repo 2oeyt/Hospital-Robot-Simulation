@@ -17,7 +17,7 @@ RobotClasses.h — ประกาศคลาส Attributes และ Methods
 
 main.cpp — เขียนฟังก์ชันการทำงานของคลาส กำหนดสถานการณ์จำลอง และ int main()
 
-tests.cpp — Unit Tests และตัวอย่าง Change Request
+tests.cpp — Unit Tests
 
 # How to Build and Run Program
 
@@ -30,3 +30,9 @@ tests.cpp — Unit Tests และตัวอย่าง Change Request
 ```./hospital```
 
 โปรแกรมจะแสดง Grid และสถานะของหุ่นยนต์ในแต่ละ Timestep จนงานทั้งหมดเสร็จสิ้น
+
+# Library
+
+**`#include <cstdlib>`** — เป็น Library มาตรฐานของ C++ ใช้ในไฟล์ `tests.cpp` สำหรับเรียกฟังก์ชัน `std::exit(1)` เพื่อหยุดการทำงานของโปรแกรมทันทีเมื่อ Unit Test ไม่ผ่าน
+
+จัดทำโดย นางสาวณภัทร ต่ายจันทร์ 68340500024
