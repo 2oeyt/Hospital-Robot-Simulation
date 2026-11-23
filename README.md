@@ -25,7 +25,8 @@ tests.cpp — Unit Tests และตัวอย่าง Change Request
 
 เปิด Terminal ในโฟลเดอร์โปรเจกต์ แล้วใช้คำสั่ง: 
 
-g++ -std=c++17 main.cpp tests.cpp -o hospital
-./hospital 
+```g++ -std=c++17 main.cpp tests.cpp -o hospital```
+
+```./hospital```
 
 โปรแกรมจะแสดง Grid และสถานะของหุ่นยนต์ในแต่ละ Timestep จนงานทั้งหมดเสร็จสิ้น
