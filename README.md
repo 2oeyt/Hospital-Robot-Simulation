@@ -14,5 +14,7 @@ CleanerRobot (1 ตัว): หุ่นยนต์สำหรับทำค�
 
 # Project File
 RobotClasses.h — ประกาศคลาส Attributes และ Methods
+
 main.cpp — เขียนฟังก์ชันการทำงานของคลาส กำหนดสถานการณ์จำลอง และ int main()
+
 tests.cpp — Unit Tests และตัวอย่าง Change Request
