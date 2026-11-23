@@ -23,7 +23,7 @@ tests.cpp — Unit Tests และตัวอย่าง Change Request
 
 โปรแกรมใช้ภาษา C++17 และสามารถ Compile ด้วย g++ โดยไม่ต้องติดตั้ง Library เสริม
 
-เปิด Terminal ในโฟลเดอร์โปรเจกต์ แล้วใช้คำสั่ง: 
+เปิด Terminal ในโฟลเดอร์โปรเจกต์ แล้วใช้คำสั่ง
 
 ```g++ -std=c++17 main.cpp tests.cpp -o hospital```
 
